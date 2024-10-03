@@ -9,28 +9,9 @@ public class Main{
         
         tree.insertMany(id, name, age);
         
-//        System.out.println("\nBreadth First:");
-//        tree.breadth(tree.root);
-//        System.out.println("\nPreOrder:");
-//        tree.preOder(tree.root);
-//        System.out.println("\nInOrder:");
-//        tree.inOder(tree.root);
-//        System.out.println("\nPostOrder:");
-//        tree.postOder(tree.root);
-//        
 
         System.out.println("\nBreadth First:");
         tree.breadth(tree.root);
         System.out.println(tree.countNode(tree.root));
-        // tree.balance();
-
-        // System.out.println("After balance: ");
-        // System.out.println("Breadth First:");
-        // tree.breadth(tree.root);
-
-        // tree.root = tree.rightRotate(tree.root);
-
-        // System.out.println("\nBreadth First:");
-        // tree.breadth(tree.root);
     }
 }
